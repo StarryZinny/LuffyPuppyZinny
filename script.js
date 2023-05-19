@@ -9,7 +9,7 @@ document.addEventListener("touchstart", handleTouchStart);
 document.addEventListener("touchmove", handleTouchMove);
 document.addEventListener("touchend", handleTouchEnd);
 
-const listening = false,
+let listening = false,
   direction = "down",
   current,
   next = 0;
